@@ -1,0 +1,67 @@
+/* .title {
+  text-align: center;
+  font-size: 35px;
+} */
+#logoProfile {
+  display: flex;
+  justify-content: space-between;
+}
+#logoBox, #profileBox, button {
+  display: inline-block;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  font-size: 30px;
+  background-color: plum;
+}
+body {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+.radio {
+  margin-bottom: 15px;
+}
+
+.dogform {
+  justify-content: flex-start;
+  flex-direction: column;
+  width: 50%;
+}
+.info {
+  text-align: center;
+}
+.place {
+  margin-top: 20px;
+}
+.dogformright {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.menu2 {
+  display: flex;
+}
+.questions {
+  display: flex;
+  justify-content: space-between;
+  /*display flex should go inside of the parent tag, space space-between
+  organize all the childrends of the parent tag, everything must go in the
+  parent tag  */
+  background-color: blue;
+  padding: 50px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 40px;
+
+}
+/* .submit {
+  justify-content: center;
+
+} */
+/* .clearfix {
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+} */
