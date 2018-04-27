@@ -5,36 +5,76 @@
   <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-
+<!--header  -->
 <body>
-  <div class="title">
-  <h3>SURVEY<h3>
+  <!-- <div class="title">
+   <h3>SURVEY<h3>
+  </div> -->
+  <header>
+  <div id="logoProfile">
+    <div class="logoBox"><button>Logo</button></div>
+    <div class="profileBox"><button>Profile</button></div>
   </div>
-    <div class="dogform">
-      <form>
+</header>
+  <!--subtitle  -->
+      <div class="info">
         <h3>Dog Info</h3>
-        Dog Name:<br>
-  <input type="text" name="Dog Name"><br>
-  Breed:<br>
-  <input type="text" name="Breed"><br>
-  Age:<br>
-  <input type="text" name="Age">
-</form>
-<div class="radio">
-<form>
-  <h3>Sex:</h3>
-  <input type="radio" name="gender" value="male" checked> Male
-  <input type="radio" name="gender" value="female"> Female<br>
-</form>
-</div>
-<div class="dropdown">
-  <span>Energy Level:</span>
-  <div class="menu">
-    <p>High</p>
-    <p>Medium</p>
-    <p>Low</p>
+     </div>
+     <!--div class="dogform" everything in the left  -->
+     <!--div class="questions" wraps everything from the left
+   and the right side  -->
+    <div class="questions">
+     <div class="dogform">
+         <form>
+           Dog Name:<br>
+           <input type="text" name="Dog Name"><br>
+           Breed:<br>
+           <input type="text" name="Breed"><br>
+           Age:<br>
+           <input type="text" name="Age">
+        </form>
+      <div class="radio">
+        <form>
+          <h3>Sex:</h3>
+          <input type="radio" name="gender" value="male" checked> Male
+          <input type="radio" name="gender" value="female"> Female<br>
+        </form>
+      </div>
+
+        <div class="dropdown">
+          <label for="sel1">Energy Level:</label>
+          <select class="form-control" id="options">
+            <option>High</option>
+            <option>Medium</option>
+            <option>Low</option>
+          </select>
+        </div>
+    </div> <!-- END dogform -->
+<!--everything in the right  -->
+    <div class="dogformright">
+      <div class="menu2">
+        <label for="sel1">Size:</label>
+        <select class="form-control" id="options">
+          <option>Small</option>
+          <option>Medium</option>
+          <option>Large</option>
+        </select>
+      </div>
+      <div class="place">
+        Location:<br>
+        <input type="text" name="Location">
+      </div>
+      <div class="days">
+        <h4>More Info:</h4>
+        <textarea rows='10' cols='30'>Your message:</textarea>
+    </div> <!-- END dogformright -->
+  </div> <!-- END questions -->
+  <br>
+  <div class="submit">
+    <input type="submit" value="Submit">
   </div>
-</div>
+
+
 
 
 
